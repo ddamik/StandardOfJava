@@ -1,3 +1,4 @@
+import chapter_13.DaemonThread;
 import chapter_13.MultiResourceMultiThread;
 import chapter_13.RunnableThread;
 import chapter_13.ThreadGroupPrac;
@@ -17,7 +18,11 @@ public class App {
 //		ThreadPriority tp = new ThreadPriority();
 //		tp.threadPriority();
 		
-		ThreadGroupPrac threadGruop = new ThreadGroupPrac();
-		threadGruop.threadGroup();
+//		ThreadGroupPrac threadGruop = new ThreadGroupPrac();
+//		threadGruop.threadGroup();
+		
+		DaemonThread daemonThread = new DaemonThread();
+//		daemonThread.daemonThread();
+		daemonThread.checkDeamonThread();
 	}
 }
