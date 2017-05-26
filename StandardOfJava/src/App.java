@@ -1,6 +1,7 @@
 import chapter_13.DaemonThread;
 import chapter_13.MultiResourceMultiThread;
 import chapter_13.RunnableThread;
+import chapter_13.StateOfThread;
 import chapter_13.ThreadGroupPrac;
 import chapter_13.ThreadPriority;
 
@@ -21,8 +22,13 @@ public class App {
 //		ThreadGroupPrac threadGruop = new ThreadGroupPrac();
 //		threadGruop.threadGroup();
 		
-		DaemonThread daemonThread = new DaemonThread();
+//		DaemonThread daemonThread = new DaemonThread();
 //		daemonThread.daemonThread();
-		daemonThread.checkDeamonThread();
+//		daemonThread.checkDeamonThread();
+		
+		StateOfThread stateOfThread = new StateOfThread();
+//		stateOfThread.interruptPrac();
+//		stateOfThread.ThreadJoinPrac();
+		stateOfThread.threadGCPrac();
 	}
 }
