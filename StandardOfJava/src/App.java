@@ -1,5 +1,6 @@
 import chapter_06.Chapter06;
 import chapter_06.Tv;
+import chapter_07.Chapter07App;
 import chapter_13.DaemonThread;
 import chapter_13.MultiResourceMultiThread;
 import chapter_13.RunnableThread;
@@ -34,9 +35,11 @@ public class App {
 //		stateOfThread.threadGCPrac();
 		
 	
-		Chapter06 chapter6 = new Chapter06();
-		chapter6.app();
+//		Chapter06 chapter6 = new Chapter06();
+//		chapter6.app();
 		
+		Chapter07App chapter7 = new Chapter07App();
+		chapter7.main();
 		
 	}
 }

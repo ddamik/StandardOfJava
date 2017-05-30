@@ -11,8 +11,11 @@ public class Chapter06 {
 //		MyMath mm = new MyMath();
 //		mm.tip();
 		
-		VarArgsEx var = new VarArgsEx();
-		var.app();
+//		VarArgsEx var = new VarArgsEx();
+//		var.app();
+		
+		StaticBlockTest sbt = new StaticBlockTest();
+		sbt.app();
 	}
 
 	//	인스턴스 생성.
