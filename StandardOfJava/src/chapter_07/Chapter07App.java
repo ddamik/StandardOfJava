@@ -11,7 +11,16 @@ public class Chapter07App {
 //		CaptionTvTest test = new CaptionTvTest();
 //		test.main();
 		
-		DrawShape ds = new DrawShape();
-		ds.main();
+//		DrawShape ds = new DrawShape();
+//		ds.main();
+		
+//		Polymorphism pm = new Polymorphism();
+//		pm.main();
+		
+//		ParserTest parser = new ParserTest();
+//		parser.main();
+		
+		StarcraftInterface star = new StarcraftInterface();
+		star.main();
 	}
 }
