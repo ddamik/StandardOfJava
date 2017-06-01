@@ -1,6 +1,7 @@
 import chapter_06.Chapter06;
 import chapter_06.Tv;
 import chapter_07.Chapter07App;
+import chapter_11.Chapter11;
 import chapter_13.DaemonThread;
 import chapter_13.MultiResourceMultiThread;
 import chapter_13.RunnableThread;
@@ -38,8 +39,13 @@ public class App {
 //		Chapter06 chapter6 = new Chapter06();
 //		chapter6.app();
 		
-		Chapter07App chapter7 = new Chapter07App();
-		chapter7.main();
+//		Chapter07App chapter7 = new Chapter07App();
+//		chapter7.main();
 		
+//		Chapter11 chapter11 = new Chapter11();
+//		chapter11.main();
+		
+		problem.Chapter06 ch6 = new problem.Chapter06();
+		ch6.main();
 	}
 }
