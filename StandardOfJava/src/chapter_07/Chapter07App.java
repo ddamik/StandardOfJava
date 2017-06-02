@@ -20,7 +20,10 @@ public class Chapter07App {
 //		ParserTest parser = new ParserTest();
 //		parser.main();
 		
-		StarcraftInterface star = new StarcraftInterface();
-		star.main();
+//		StarcraftInterface star = new StarcraftInterface();
+//		star.main();
+		
+		InheritancePrac ip = new InheritancePrac();
+		ip.main();
 	}
 }

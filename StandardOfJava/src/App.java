@@ -1,3 +1,5 @@
+import javax.naming.SizeLimitExceededException;
+
 import chapter_06.Chapter06;
 import chapter_06.Tv;
 import chapter_07.Chapter07App;
@@ -8,6 +10,7 @@ import chapter_13.RunnableThread;
 import chapter_13.StateOfThread;
 import chapter_13.ThreadGroupPrac;
 import chapter_13.ThreadPriority;
+import problem.Chapter13;
 
 public class App {
 
@@ -45,7 +48,10 @@ public class App {
 //		Chapter11 chapter11 = new Chapter11();
 //		chapter11.main();
 		
-		problem.Chapter06 ch6 = new problem.Chapter06();
-		ch6.main();
+//		problem.Chapter06 ch6 = new problem.Chapter06();
+//		ch6.main();
+		
+		Chapter13 ch13 = new Chapter13();
+		ch13.main();
 	}
 }
