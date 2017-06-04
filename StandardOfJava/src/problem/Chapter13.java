@@ -2,6 +2,8 @@ package problem;
 
 public class Chapter13 {
 
+	public char c;
+	public int d;
 	public boolean stopped = false;
 	public void main()  {
 		// 13-5
@@ -27,10 +29,24 @@ public class Chapter13 {
 		// stopped = true;
 		// thread.interrupt();
 		// System.out.println("Stopped");
+		 
+		System.out.println("c = " + c);
+		System.out.println("d = " + d);
+		char a;
+		short b;
 		
-		int a,b;
-		char c;
+	
+		User user = new User();
+		User user2 = new User();
+		User user3 = user;
 		
+		if( user == user2 ) System.out.println("aa");
+		else System.out.println("bb");
+		
+		if( user == user3 ) System.out.println("cc");
+	}
+
+	class User {
 		
 	}
 
